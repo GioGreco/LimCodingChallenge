@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HOME PAGE - Lim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+      <div class="container">
+          <!-- Logo - brand's slogan -->
+          <header>
+            <img src="logo.png" alt="logo + brand name">
+            <h1>Taking Booleaners from A to B</h1>
+          </header>
+
+          <!-- Bar - Interaction Buttons -->
+            <nav>
+              <button type="button" name="button">Prenota</button>
+              <button type="button" name="button">Termina prenotazione</button>
+              <button type="button" name="button">Accendi luci</button>
+            </nav>
+
+            <!-- Nearby scooters status -->
+            <main>
+              <div class="scooterID">
+                <input type="checkbox" name="selectScooter">          <!--Gino22 identifica monopattino o utente?-->
+                <span>Monopattino Gino22</span>
+              </div>
+              <div class="location">
+                <span class="address">Via Guadalametri - </span>      <!--via e distanza si aggiornano in maniera indipendente, meglio separare(?) -->
+                <span class="distance">a 220 metri da te</span>
+              </div>
+              <div class="battery">
+                <span>Stato carica:</span>
+                <hr class="charge Gino22">
+              </div>
+
+              <div class="scooterID">
+                <input type="checkbox" name="selectScooter">
+                <span>Monopattino Mike24</span>
+              </div>
+              <div class="location">
+                <span class="address">Via Ricciardoni - </span>
+                <span class="distance">a 420 metri da te</span>
+              </div>
+              <div class="battery">
+                <span>Stato carica:</span>
+                <hr class="charge Mike24">
+              </div>
+
+              <div class="scooterID">
+                <input type="checkbox" name="selectScooter">
+                <span>Monopattino Fede154</span>
+              </div>
+              <div class="location">
+                <span class="address">Via Mentarini - </span>
+                <span class="distance">a 490 metri da te</span>
+              </div>
+              <div class="battery">
+                <span>Stato carica:</span>
+                <hr class="charge Fede154">
+              </div>
+            </main>
+      </div>
+
+  </body>
+</html>
